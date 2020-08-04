@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DungeonsAndDragons
 {
-    class CharStats
+    public class CharStat
     {
         public int CharacterId { get; set; }
 
