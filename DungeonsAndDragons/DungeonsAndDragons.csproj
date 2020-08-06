@@ -58,6 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddNewCharacter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewCharacter.Designer.cs">
+      <DependentUpon>AddNewCharacter.cs</DependentUpon>
+    </Compile>
     <Compile Include="CharacterContext.cs" />
     <Compile Include="CharInfo.cs" />
     <Compile Include="CharStat.cs" />
@@ -69,6 +75,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddNewCharacter.resx">
+      <DependentUpon>AddNewCharacter.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
