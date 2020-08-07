@@ -65,6 +65,7 @@
       <DependentUpon>AddNewCharacter.cs</DependentUpon>
     </Compile>
     <Compile Include="CharacterContext.cs" />
+    <Compile Include="CharacterDB.cs" />
     <Compile Include="CharInfo.cs" />
     <Compile Include="CharStat.cs" />
     <Compile Include="Form1.cs">
@@ -73,10 +74,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202008070313512_Initial.cs" />
+    <Compile Include="Migrations\202008070313512_Initial.designer.cs">
+      <DependentUpon>202008070313512_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddNewCharacter.resx">
       <DependentUpon>AddNewCharacter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008070313512_Initial.resx">
+      <DependentUpon>202008070313512_Initial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
