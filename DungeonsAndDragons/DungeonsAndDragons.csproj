@@ -65,6 +65,7 @@
       <DependentUpon>AddNewCharacter.cs</DependentUpon>
     </Compile>
     <Compile Include="CharacterContext.cs" />
+    <Compile Include="CharacterDB.cs" />
     <Compile Include="CharInfo.cs" />
     <Compile Include="CharStat.cs" />
     <Compile Include="Form1.cs">
