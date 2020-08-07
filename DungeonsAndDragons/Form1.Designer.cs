@@ -31,6 +31,7 @@
             this.NewCharBtn = new System.Windows.Forms.Button();
             this.UpdateCharBtn = new System.Windows.Forms.Button();
             this.DeleteCharBtn = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // NewCharBtn
@@ -61,11 +62,21 @@
             this.DeleteCharBtn.Text = "Delete Character";
             this.DeleteCharBtn.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(108, 58);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(567, 32);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Dungeons and Dragons DataBase";
+            // 
             // MainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.DeleteCharBtn);
             this.Controls.Add(this.UpdateCharBtn);
             this.Controls.Add(this.NewCharBtn);
@@ -80,6 +91,7 @@
         private System.Windows.Forms.Button NewCharBtn;
         private System.Windows.Forms.Button UpdateCharBtn;
         private System.Windows.Forms.Button DeleteCharBtn;
+        private System.Windows.Forms.Label label1;
     }
 }
 
