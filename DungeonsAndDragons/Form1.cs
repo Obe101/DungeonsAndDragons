@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace DungeonsAndDragons
 {
-    public partial class Form1 : Form
+    public partial class MainFrm : Form
     {
-        public Form1()
+        public MainFrm()
         {
             InitializeComponent();
+        }
+
+        private void NewCharBtn_Click(object sender, EventArgs e)
+        {
+            AddNewCharacter addNew = new AddNewCharacter();
+
+            addNew.ShowDialog();
         }
     }
 }

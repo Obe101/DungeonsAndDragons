@@ -1,6 +1,6 @@
 ﻿namespace DungeonsAndDragons
 {
-    partial class Form1
+    partial class MainFrm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.NewCharBtn = new System.Windows.Forms.Button();
+            this.UpdateCharBtn = new System.Windows.Forms.Button();
+            this.DeleteCharBtn = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // NewCharBtn
+            // 
+            this.NewCharBtn.Location = new System.Drawing.Point(55, 199);
+            this.NewCharBtn.Name = "NewCharBtn";
+            this.NewCharBtn.Size = new System.Drawing.Size(165, 63);
+            this.NewCharBtn.TabIndex = 0;
+            this.NewCharBtn.Text = "New Character";
+            this.NewCharBtn.UseVisualStyleBackColor = true;
+            this.NewCharBtn.Click += new System.EventHandler(this.NewCharBtn_Click);
+            // 
+            // UpdateCharBtn
+            // 
+            this.UpdateCharBtn.Location = new System.Drawing.Point(294, 198);
+            this.UpdateCharBtn.Name = "UpdateCharBtn";
+            this.UpdateCharBtn.Size = new System.Drawing.Size(179, 64);
+            this.UpdateCharBtn.TabIndex = 1;
+            this.UpdateCharBtn.Text = "Update Character";
+            this.UpdateCharBtn.UseVisualStyleBackColor = true;
+            // 
+            // DeleteCharBtn
+            // 
+            this.DeleteCharBtn.Location = new System.Drawing.Point(531, 199);
+            this.DeleteCharBtn.Name = "DeleteCharBtn";
+            this.DeleteCharBtn.Size = new System.Drawing.Size(172, 63);
+            this.DeleteCharBtn.TabIndex = 2;
+            this.DeleteCharBtn.Text = "Delete Character";
+            this.DeleteCharBtn.UseVisualStyleBackColor = true;
+            // 
+            // MainFrm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.DeleteCharBtn);
+            this.Controls.Add(this.UpdateCharBtn);
+            this.Controls.Add(this.NewCharBtn);
+            this.Name = "MainFrm";
+            this.Text = "Main Page";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button NewCharBtn;
+        private System.Windows.Forms.Button UpdateCharBtn;
+        private System.Windows.Forms.Button DeleteCharBtn;
     }
 }
 
