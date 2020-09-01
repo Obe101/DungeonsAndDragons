@@ -43,6 +43,8 @@ namespace DungeonsAndDragons
 
             CharacterDB.Add(c);
             CharacterDB.Add(s);
+
+            Close();
         }
 
         private void CharNameTXT_TextChanged(object sender, EventArgs e)
