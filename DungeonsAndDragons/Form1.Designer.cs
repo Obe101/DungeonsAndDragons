@@ -52,6 +52,7 @@
             this.UpdateCharBtn.TabIndex = 1;
             this.UpdateCharBtn.Text = "Update Character";
             this.UpdateCharBtn.UseVisualStyleBackColor = true;
+            this.UpdateCharBtn.Click += new System.EventHandler(this.UpdateCharBtn_Click);
             // 
             // DeleteCharBtn
             // 
