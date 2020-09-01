@@ -30,5 +30,11 @@ namespace DungeonsAndDragons
 
             update.ShowDialog();
         }
+
+        private void DeleteCharBtn_Click(object sender, EventArgs e)
+        {
+            DeleteForm delete = new DeleteForm();
+            delete.ShowDialog();
+        }
     }
 }

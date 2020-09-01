@@ -17,7 +17,7 @@ namespace DungeonsAndDragons
                 List<CharInfo> allChars =
                         (from chars in context.Characters
                          select chars).ToList();
-            return allChars;
+                return allChars; 
 
             }
         }
