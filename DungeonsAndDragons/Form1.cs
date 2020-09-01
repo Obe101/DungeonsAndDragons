@@ -23,5 +23,18 @@ namespace DungeonsAndDragons
 
             addNew.ShowDialog();
         }
+
+        private void UpdateCharBtn_Click(object sender, EventArgs e)
+        {
+            UpdateCharacter update = new UpdateCharacter();
+
+            update.ShowDialog();
+        }
+
+        private void DeleteCharBtn_Click(object sender, EventArgs e)
+        {
+            DeleteForm delete = new DeleteForm();
+            delete.ShowDialog();
+        }
     }
 }
